@@ -29,6 +29,8 @@ We will look at the following regex.
 
 ### Anchors
 
+In this specific instance, our regex uses the position meta characters $ and ^ as the two anchors. The ^ symbol denotes the beginning of a string or a line. The $ symbol denotes the end of a string or line. As an ilustration, ^abc matches any line or string that starts with the letter abc, while xyz$ matches any line or string that finishes with the letters xyz.
+
 ### Quantifiers
 
 ### OR Operator
