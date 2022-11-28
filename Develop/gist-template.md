@@ -18,7 +18,7 @@ We will look at the following regex.
 - [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
 - [Flags](#flags)
-- [Grouping and Capturing](#grouping-and-capturing)
+- [Grouping Constructs](#grouping-constructs)
 - [Bracket Expressions](#bracket-expressions)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
 - [Boundaries](#boundaries)
@@ -47,7 +47,9 @@ The second quantifier in our regex, {n} is utilised twice in the numbers {6} and
 
 ### Flags
 
-### Grouping and Capturing
+### Grouping Constructs
+
+
 
 ### Bracket Expressions
 
