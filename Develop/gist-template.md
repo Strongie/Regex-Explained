@@ -1,10 +1,15 @@
-# Title (replace with your title)
+# Matching a Hex Value
 
-Introductory paragraph (replace this with your text)
+The following commentary will be explaining the hexadecimal regular express (otherwise known as the hex regex). 
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+We are going to at a regex that will match any hexademical code in a string of characters. A string of characters know as a regular expression, designates a text search pattern. The characters in question could be literal or meta characters. Meta characters, which stand in for a larger variety or characters, are frequently used to build regex.
+
+We will look at the following regex.
+
+/^#?([a-f0-9]{6}|[a-f0-9]{3})$/
+
 
 ## Table of Contents
 
