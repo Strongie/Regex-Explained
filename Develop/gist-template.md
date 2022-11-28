@@ -33,6 +33,14 @@ In this specific instance, our regex uses the position meta characters $ and ^ a
 
 ### Quantifiers
 
+When determining how many times a component of your regular expression should be repeated, quantifiers are employed. You can add a quantifier to every item you want to repeat in a regex, whether it's a character, a character class, or a subexpression, to indicate how many times it should be repeated.
+
+The hex regex uses two types of quantifiers: ? and {n}.
+
+The quantifier ? matches any character that comes before it 0 or 1 times. The ? now functions as a kind of conditional inside the regex. Since # comes before ? in our regex, either string that starts with # or not will match our expression.
+
+The second quantifier in our regex, {n} is utilised twice in the numbers {6} and {3}. This meta character perfectly matches the character that comes before it n times. For instance, the regular expression {\d{4}} will match any string containing four consecutive digits, such as 1234 or 7777.
+
 ### OR Operator
 
 ### Character Classes
