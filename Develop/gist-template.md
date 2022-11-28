@@ -17,13 +17,9 @@ We will look at the following regex.
 - [Quantifiers](#quantifiers)
 - [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
-- [Flags](#flags)
 - [Grouping Constructs](#grouping-constructs)
-- [Bracket Expressions](#bracket-expressions)
-- [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Boundaries](#boundaries)
-- [Back-references](#back-references)
-- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
+- [Conclusion](#conclusion)
+
 
 ## Regex Components
 
@@ -55,22 +51,18 @@ One character class [a-f0-9] is duplicated twice in this regex. Any character cl
 
 We have two ranges within our character class: a-f and 0-9. This indicates that it matches all lowercase characters "a" through "f" and "0" through "9". Additionally [m-p] matches "m", "n", "o", or "p". 
 
-### Flags
-
 ### Grouping Constructs
 
 Anything between () these parenthesis is used to group together serveral characters to represent an express as a whole. This will be shown as an array, and each value may be accessed by using an index based ont eh match's outcome.
 
-### Bracket Expressions
+### Conclusion
 
-### Greedy and Lazy Match
+After carefully examining each component of the regex, we are able to express the matching pattern as follows;
 
-### Boundaries
-
-### Back-references
-
-### Look-ahead and Look-behind
+Every sequence of characters, whether or not it begins with a #, followed by six characters "a" through "f" and "0" through "9", or followed by 3 characters "a" through "f" and "0" through "9".
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+My name is Nicholas. I am learning coding with the hope of one day travelling the world as I work.
+
+- Github Link: https://github.com/Strongie
