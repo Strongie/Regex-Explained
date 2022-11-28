@@ -43,13 +43,23 @@ The second quantifier in our regex, {n} is utilised twice in the numbers {6} and
 
 ### OR Operator
 
+A huge group in our regex is separated by the OR operator|. There are two expression int the group ([a-f0-9]{6})|([a-f0-9]{3})
+- ([a-f0-9]{6}) and
+- ([a-f0-9]{3})
+This indicates that our regex will match any of those two expressions. The OR operator can also be used to verify email domains, for instance; (.com|.net|.org) will match ".com", ".net" or ".org" in an email address. 
+
+
 ### Character Classes
+
+One character class [a-f0-9] is duplicated twice in this regex. Any character class matches any character surrounded in the parenthesis. As an illustration [xyz] will match "x", "y" or "z". [-] will match "-".
+
+We have two ranges within our character class: a-f and 0-9. This indicates that it matches all lowercase characters "a" through "f" and "0" through "9". Additionally [m-p] matches "m", "n", "o", or "p". 
 
 ### Flags
 
 ### Grouping Constructs
 
-
+Anything between () these parenthesis is used to group together serveral characters to represent an express as a whole. This will be shown as an array, and each value may be accessed by using an index based ont eh match's outcome.
 
 ### Bracket Expressions
 
